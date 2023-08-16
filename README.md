@@ -6,7 +6,7 @@ A Public Repo for our animation artists to submit cusotm tools that they would l
 
 * Repo for Animation/layout tools and scripts
 
-### How do I get set up? ###
+### Contribution and Setting Up ###
 
 * Create a github account
 * From the command line, clone this repo by entering  
@@ -19,7 +19,7 @@ A Public Repo for our animation artists to submit cusotm tools that they would l
 * Once you are done, return to the cmd and type `git add <FILE-NAME>` for each file you added/updated
 * Next, type `git commit -m "<SHORT-SENTENCE-SUMMARIZING FILES/CHANGES>"`
 * Then type `git push` for the code to be pushed onto the remote branch.
-* From here, the Tech team can review your code, and help to ensure that it follows Brazen's coding practices before merging it and incorporating it into the pipe
+* The Next Step is Creating a Pull Request and undergoing Code Review See the section below
 ### Creating a Branch ###
 * Navigate to https://github.com/HaydenBrazen/brazen_anim_tools/branches
 * In The top Right corner of the screen hit the button that says New branch
@@ -32,9 +32,19 @@ A Public Repo for our animation artists to submit cusotm tools that they would l
   * feature/PR-37-euler-curve-bake
   * bugfix/purge-excessive-keys-on-mirror
 
-### Contribution guidelines ###
-
-* Explain Code Review/Pull Requests
+### Collaboration and Code Review ###
+* After you have pushed all your code to the repository, navigate to  
+https://github.com/HaydenBrazen/brazen_anim_tools/pulls
+* Click `New Pull Request`
+* In the top, there is a dropdown for base and compare, leave base as  master but change compare to your new branch
+* Click `Create Pull Request`
+* Name the Pull Request Appropriately
+* In the Description leave a detailed description with Pictures and attachments describing what the new tool will do
+* Set yourself as the Assignee, and the members of the tech team as the reviews _(This should be automated)_
+* When you are done, click `Create pull request`
+* From here the tech team should be able to review the code and comment on it. This is to ensure that the code matches the brazen standard.  
+* Once You have made any changes that they give you through comments, and your code is reviewed, hit merge pull request
+* If the branch is not deleted, delete the branch, _but it should be_
 
 ### Who do I talk to? ###
 
